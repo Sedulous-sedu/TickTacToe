@@ -193,7 +193,7 @@ void O_Winning(void)
 				++Game_num; // increment game number
 				++O_score; // increment 'O' score
 				O_WinningIndicator = O_score; // update winning indicator
-				cout << "\n'O' wins\nGame " << Game_num << " is over\n'O' score: " << X_score << "\n'O' score : " << O_score << "\n*****************"; // print game over message
+				cout << "\n'O' wins\nGame " << Game_num << " is over\n'X' score: " << X_score << "\n'O' score : " << O_score << "\n*****************"; // print game over message
 				Sleep(Timer);
 				return; // exit function
 			}
